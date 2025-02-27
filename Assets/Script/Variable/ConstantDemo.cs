@@ -1,14 +1,13 @@
 using UnityEngine;
 
-public class HelloWorldPractice : MonoBehaviour
+// Constant(상수) : 변하지 않은 변수,
+public class ConstantDemo : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //Debug.Log("Hello Unity!!!");
-        //Debug.Log("123456789");
-
-        Debug.Log("Hello Unity!!!\n123456789");
+        //정수 형식의 상수 선언과 동시에 초기화
+        const int MAX = 100;
     }
 
     // Update is called once per frame
@@ -17,10 +16,3 @@ public class HelloWorldPractice : MonoBehaviour
         
     }
 }
-
-
-/*
- [output]
-Hello Unity!!!
-123456789
-*/
