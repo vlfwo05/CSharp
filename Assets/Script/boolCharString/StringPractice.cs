@@ -6,8 +6,8 @@ public class StringPractice : MonoBehaviour
     void Start()
     {
         int num = 3;
-        string str = "홀수";
-        Debug.Log($"{num} 은(는) {str} 입니다");
+        string result = "홀수";
+        Debug.Log($"{num} 은(는) {result} 입니다");
     }
 }
 
